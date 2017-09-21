@@ -18,6 +18,7 @@
       <ul>
           <li>HOME</li>
           <li>AMENITIES</li>
+           <li>FLOOR PLANS |</li>
           <li>PHOTOS</li>
           <li>MAP</li>
           <li>CONTACT US</li>
@@ -46,6 +47,48 @@
 
 <section>
 
+<div id="left_img"></div>
+<article>
+    <h1>---OUR AMENITIES---</h1>
+    <h3> Amenities are necessary for comfort living </h3>
+    <h3>Near Medow Hills Golf</h3>
+    <h3>Near King Soopers </h3>
+    <h3>Near Cherry Creek Bike Trail</h3>
+    <h3>Near Cherry Creek State Park</h3>
+    <h3>Near Walmart</h3>
+    <h3>Near Nine Mile station</h3>
+    <h3>Near Bus stop</h3>
+</article> 
+<div id ="right_img"></div>
+
 </section>
+
+<section>
+    
+        <h1>---VISIT US---</h1>
+        <h2>Meadow Hills Condominium</h2> <br>
+        <h2>South Parker and East Lehigh Ave </h2> <br>
+        <h2>Aurora, CO 80014</h2>
+
+    
+</section>
+
+<footer>
+
+     <nav> 
+      <ul>
+          <li>HOME |</li>
+          <li>AMENITIES |</li>
+          <li>FLOOR PLANS |</li>
+          <li>PHOTOS |</li>
+          <li>MAP |</li>
+          <li>CONTACT US</li>
+      </ul>
+    </nav>
+
+    <small>© 2017 KANIMOZHI MANAGEMENT. ALL RIGHTS RESERVED.| WEBSITE DESIGN BY KANIMOZHI </small> 
+
+</footer>   
 </body>
+
 </html>
