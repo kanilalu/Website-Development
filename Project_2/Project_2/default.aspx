@@ -47,8 +47,13 @@
 
 <section>
 
-<div id="left_img"></div>
-<article>
+<div id="left_img" class="column">
+    <figure>
+        <img src ="images/home_bed.jpg" alt ="image of bedroom">
+    </figure>
+</div>
+
+<div id="centre_sec" class="column">
     <h1>---OUR AMENITIES---</h1>
     <h3> Amenities are necessary for comfort living </h3>
     <h3>Near Medow Hills Golf</h3>
@@ -58,8 +63,13 @@
     <h3>Near Walmart</h3>
     <h3>Near Nine Mile station</h3>
     <h3>Near Bus stop</h3>
-</article> 
-<div id ="right_img"></div>
+</div>
+
+<div id ="right_img" class="column">
+    <figure>
+        <img src ="images/home_kitchen.jpg" alt ="image of kitchen">
+    </figure>
+</div>
 
 </section>
 
