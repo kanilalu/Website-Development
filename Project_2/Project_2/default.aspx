@@ -6,6 +6,7 @@
 <head runat="server">
     <title>Medow Hills Condominiums</title>
     <link rel="stylesheet" type="text/css" href="styles/style1.css" media="screen">
+     <link rel="shortcut icon" type="text/css" href="images/logo.ico"/>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -49,18 +50,21 @@
     <div class="resident_portal"><br/>RESIDENT PORTAL</div>
 </section>
 
-<section>
-          <img class="img_full" src="images/home_exterior.jpg" alt="Meadow Hills Condominiums">
-</section>
 
   
 <section>
     <div class="visit_us"> 
-        <h2>---VISIT US---</h2>
+       
+       
+             <h2>---VISIT US---</h2>
         <p>Meadow Hills Condominium <br>
         South Parker and East Lehigh Ave <br>
         Aurora, CO 80014</p>
-    </div>
+        </div>
+            
+  
+       
+ 
        
 </section>
 
@@ -77,7 +81,17 @@
       </ul>
     </nav>
 
-    <small>© 2017 KANIMOZHI MANAGEMENT. ALL RIGHTS RESERVED. </small> 
+    <small>© 2017 KANIMOZHI MANAGEMENT. ALL RIGHTS RESERVED. </small> <br>
+    <p>
+        Reference website: <br>
+        http://www.savoy-living.com/ <br>
+        https://www.codecademy.com/courses/web-beginner-en-XVV0A/0/1?curriculum_id=50b91eda28c2fb212300039e <br>
+https://msdn.microsoft.com/en-us/library/bb398932(v=vs.110).aspx <br>
+https://css-tricks.com/text-blocks-over-image/ <br>
+http://cssreset.com/creating-fixed-headers-with-css/ <br>
+https://www.w3schools.com/css/css_navbar.asp
+
+    </p>>
 
 </footer>   
 </body>
