@@ -48,7 +48,7 @@ body
     background-color:black;
     color:white;
 }
-hgroup h1 {
+h1 {
     font-size: 2em;
     margin: 0;
     padding: 0;
@@ -59,13 +59,7 @@ figure img {
     width: 100%;
     overflow: hidden;
 }
-h1
-{
-font-size:2em;
-margin:0;                            
-padding:0;
-padding-top:10px;
-}
+
 h2 {
     font-size: 1.6;
     padding-left: 10px;
@@ -159,4 +153,9 @@ small
     padding-left: 20px;
     margin: 0;
     padding: 0;
+}
+.logo 
+{
+    width:16px; 
+    height:16px;
 }

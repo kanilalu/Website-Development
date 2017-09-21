@@ -13,9 +13,14 @@
     </form>
  <header>
 
-  <hgroup>
-    <h1>Medow Hills Condominiums</h1>
-  </hgroup>
+ 
+      <table>
+ <tbody><tr>
+     <td>
+    <img class="logo" src="images/logo.ico" alt="logo of medow hills"> </td>
+       <td>  <h1>Medow Hills Condominiums</h1> </td>
+     </tr>
+  </tbody></table>
   <nav> 
       <ul>
           <li><a href="#home">HOME</a></li>
