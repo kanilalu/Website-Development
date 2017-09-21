@@ -17,12 +17,12 @@
   </hgroup>
   <nav> 
       <ul>
-          <li>HOME</li>
-          <li>AMENITIES</li>
-           <li>FLOOR PLANS</li>
-          <li>PHOTOS</li>
-          <li>MAP</li>
-          <li>CONTACT US</li>
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#amenities">AMENITIES</a></li>
+           <li><a href="#floorplans">FLOOR PLANS</a></li>
+          <li><a href="#photos">PHOTOS</a></li>
+          <li><a href="#map">MAP</a></li>
+          <li><a href="#contactus">CONTACT US</a></li>
       </ul>
   </nav>
   
