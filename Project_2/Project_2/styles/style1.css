@@ -1,2 +1,38 @@
-﻿body {
+﻿header
+{
+    height:75px;
+    width:100%;
+    background-color:white;
+    color:black;
+}
+nav
+{
+    width:65%;
+    float:right;
+  
+}
+nav ul
+{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+nav li
+{
+float:left;
+margin-right:50px;
+}
+li {
+    display: inline;
+}
+
+body
+{
+    font-family:'Times New Roman', Times, serif;
+    background-color:darkslategrey;
+}
+h1
+{
+    font-size:2em;
+    margin
 }

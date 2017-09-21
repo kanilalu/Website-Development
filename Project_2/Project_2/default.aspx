@@ -5,11 +5,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Medow Hills Condominiums</title>
+    <link rel="stylesheet" type="text/css" href="styles/style1.css" media="screen">
 </head>
 <body>
     <form id="form1" runat="server">
     </form>
-  <header>
+ <header>
 
   <hgroup>
     <h1>Medow Hills Condominiums</h1>
@@ -18,7 +19,7 @@
       <ul>
           <li>HOME</li>
           <li>AMENITIES</li>
-           <li>FLOOR PLANS |</li>
+           <li>FLOOR PLANS</li>
           <li>PHOTOS</li>
           <li>MAP</li>
           <li>CONTACT US</li>
