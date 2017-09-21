@@ -37,12 +37,33 @@
 </section>
 
 <section>
-    <article>
+<div id="welcome">
         <h1>WELCOME TO MEDOW HILLS CONDOMINIUMS</h1>   
         <p> Designed for the free-spirited who seek a lifestyle of choice, Meadow Hills Condominiums is a place to gather with friends and a home from which to stage your Colorado adventures. Whether you choose to enjoy the resort amenities, ski on the peaks, raft on the rivers or explore the canyons, the spirit of Colorado resounds in the Meadow Hills Condominiums. </p>
         <p> Inspired by the legendary west, Meadow Hills Condominium captures the essence and energy of Colorado living. Vistas of the Rockies, spirited people and a sense of freedom, define this incredible community. Expect the extraordinary - in your remarkable home at Meadow Hills Condominium.</p>
         <p> The neighborhood features a private atmosphere for your contemporary lifestyle. Our twenty-six distinct floor plans are dramatic and spacious allowing you to express your individuality. </p>
-    </article>
+ </div>  
+</section>
+
+<section>
+    <div id="floor_plan" class="row">
+        <h2>FLOOR PLANS</h2>
+    </div>
+
+    <div id="location" class ="row">
+        <h2>LOCATION</h2>
+    </div>
+
+    <div id="resident_portal" class="row">
+        <h2>RESIDENT PORTAL</h2>
+    </div>
+</section>
+
+<section>
+    <div id ="full_img">
+        <img src="images/home_exterior.jpg">
+        <h1>Meadow Hills Condominium</h1>
+    </div>
 </section>
 
 <section>
