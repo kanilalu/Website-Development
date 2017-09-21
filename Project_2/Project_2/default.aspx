@@ -30,7 +30,7 @@
 
 <section>
     <figure>
-        <img src ="images/home_back.jpg" alt ="image of Meadow Hills Condominium swimming pool">
+        <img src ="images/home_back1.jpg" alt ="image of Meadow Hills Condominium swimming pool">
         <h1>Location Matters</h1>
         <h3>Apply Now</h3>
         <h3>Call 9003332223</h3>
@@ -70,9 +70,7 @@
 <section>
 
 <div id="left_img" class="column">
-    <figure>
-        <img src ="images/home_bed.jpg" alt ="image of bedroom">
-    </figure>
+           <img src ="images/home_bed.jpg" alt ="image of bedroom">
 </div>
 
 <div id="centre_sec" class="column">
@@ -88,9 +86,9 @@
 </div>
 
 <div id ="right_img" class="column">
-    <figure>
+    
         <img src ="images/home_kitchen.jpg" alt ="image of kitchen">
-    </figure>
+   
 </div>
 
 </section>
