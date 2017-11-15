@@ -4,7 +4,7 @@
 <html lang = "en" >
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Medow Hills Condominiums</title>
+    <title>Meadow Hills Condominiums</title>
     <link rel="stylesheet" type="text/css" href="styles/style1.css" media="screen">
      <link rel="shortcut icon" type="text/css" href="images/logo.ico"/>
 </head>
