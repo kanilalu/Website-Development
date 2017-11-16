@@ -18,7 +18,7 @@
  <tbody><tr>
      <td>
     <img class="logo" src="images/logo.ico" alt="logo of medow hills"> </td>
-       <td>  <h1>Medow Hills Condominiums</h1> </td>
+       <td>  <h1>Meadow Hills Condominiums</h1> </td>
      </tr>
   </tbody></table>
   <nav> 
