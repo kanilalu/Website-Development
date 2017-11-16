@@ -34,7 +34,7 @@
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <figure>
-                <img src ="Images/home_back1.jpg" alt ="image of Meadow Hills Condominium swimming pool">
+                <img class="img-responsive" src ="Images/home_back1.jpg" alt ="image of Meadow Hills Condominium swimming pool">
             </figure>
         </div> 
     </div>
@@ -58,6 +58,29 @@
              <a href="#" class="btn btn-warning btn-block" role="button">Contact Us</a>
         </div>
     </div>
+
+    <div class="row">
+         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <figure>
+                <img class="img-responsive" src ="Images/home_back2.jpg" alt ="image of Meadow Hills Condominium swimming pool">
+            </figure>
+         </div>    
+    </div>
+
+    <div class ="row">
+         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+             <figure>
+                <img class="img-responsive" src ="Images/home_back3.jpg" alt ="image of Meadow Hills Condominium swimming pool">
+            </figure>
+         </div>
+         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+
+         </div>
+         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+             <figure>
+                <img class="img-responsive" src ="Images/home_back4.jpg" alt ="image of Meadow Hills Condominium swimming pool">
+            </figure>
+         </div>
 
 </body>
 </html>
