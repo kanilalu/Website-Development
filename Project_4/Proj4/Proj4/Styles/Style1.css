@@ -1,2 +1,32 @@
-﻿body {
+﻿header {
+    width: 80%;
+    background-color: white;
+    color: black;
+    margin-right: auto;
+    margin-left: auto;
+    height: 75px;
 }
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
+}
+
+nav {
+    width: 100%;
+    float: right;
+}
+
+    nav li {
+        float: right;
+        margin-right: 50px;
+    }
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    ul li{
+
+    }

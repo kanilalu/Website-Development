@@ -8,26 +8,34 @@
     <title>Meadow Hills</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="Styles/Style1.css" media="screen">
 </head>
 
 <body>
     <form id="form1" runat="server">
     </form>
     <header>
-        <nav class="navbar navbar-inverse">
-          <div class="container-fluid">
-             <div class="navbar-header">
-                <a class="navbar-brand" href="#">WebSiteName</a>
-             </div>
+      <div class="container-fluid">
+         <div class="row">
+           <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                    MEADOW HILLS CONDOMINIUM
+           </div>
+            
 
-             <ul class="nav navbar-nav">
-                 <li class="active"><a href="#">Home</a></li>
-                 <li><a href="#">Page 1</a></li>
-                 <li><a href="#">Page 2</a></li>
-                 <li><a href="#">Page 3</a></li>
+             <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+             <nav>
+             <ul>
+                 <li class="active"><a href="#">HOME</a></li>
+                 <li><a href="#">AMENITIES</a></li>
+                 <li><a href="#">FLOOR PLANS</a></li>
+                 <li><a href="#">MAP</a></li>
+                 <li><a href="#">CONTACT US</a></li>
              </ul>
+             </nav>  
+             </div>
           </div>
-      </nav>
+          </div>
+      
     </header>
 
   <div class="container">
@@ -69,18 +77,42 @@
 
     <div class ="row">
          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-             <figure>
-                <img class="img-responsive" src ="Images/home_back3.jpg" alt ="image of Meadow Hills Condominium swimming pool">
-            </figure>
+           
+           <img class="img-responsive" src ="Images/home_back3.jpg" alt ="image of Meadow Hills Condominium swimming pool">
+        
          </div>
          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-
+            
+                <img class="img-responsive" src ="Images/home_back5 .png" alt ="image of Meadow Hills Condominium swimming pool">
+          
          </div>
          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-             <figure>
+            
                 <img class="img-responsive" src ="Images/home_back4.jpg" alt ="image of Meadow Hills Condominium swimming pool">
-            </figure>
+           
          </div>
+     </div>
 
+      <div class="row">
+          <div class ="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+     <footer>
+              <nav> 
+                   <ul>
+                       <li>HOME |</li>
+                       <li>AMENITIES |</li>
+                       <li>FLOOR PLANS |</li>
+                       <li>MAP |</li>
+                       <li>CONTACT US</li>
+                  </ul>
+             </nav>
+         </div>
+       </div>
+
+      <div class="row">
+          <div class ="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+             <small>© 2017 KANIMOZHI MANAGEMENT. ALL RIGHTS RESERVED. </small> 
+           </div>
+      </div>
+    </footer>
 </body>
 </html>
