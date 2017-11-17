@@ -28,7 +28,7 @@
              <nav>
              <ul>
                  <li class="active"><a href="#">CONTACT US</a></li>
-                 <li><a href="#">MAP</a></li>
+                 <li><a href="Map.aspx">MAP</a></li>
                  <li><a href="#">AMENITIES</a></li>
                  <li><a href="default.aspx">HOME</a></li>
              </ul>
@@ -44,8 +44,10 @@
          <div class ="row">
               <div class ="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center ">
                   <div class="black">
-                      <p> <b>Call Us </b> </p>
-                  <p>  <b> Phone: </b> 7207673370 </p>
+                      <br>
+                      <p style="font-size:1.5em"> Call Us  </p>
+                <p style="font-size:1.5em">   Phone:  7207673370  </p> 
+                      <br>
                   </div>
               </div> 
          </div>
@@ -117,7 +119,7 @@
               <nav> 
                    <ul>
                        <li><a href="#">CONTACT US</a></li>
-                       <li><a href="#">MAP</a></li>
+                       <li><a href="Map.aspx">MAP</a></li>
                        <li><a href="#">AMENITIES</a></li>
                        <li class="active"><a href="default.aspx">HOME</a></li>
                   </ul>

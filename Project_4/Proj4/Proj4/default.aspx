@@ -26,7 +26,7 @@
              <nav>
              <ul>
                  <li class="active"><a href="#">CONTACT US</a></li>
-                 <li><a href="#">MAP</a></li>
+                 <li><a href="Map.aspx">MAP</a></li>
                  <li><a href="Amenities.aspx">AMENITIES</a></li>
                  <li><a href="#">HOME</a></li>
              </ul>
@@ -98,9 +98,9 @@
               <nav> 
                    <ul>
                        <li><a href="#">CONTACT US</a></li>
-                 <li><a href="#">MAP</a></li>
-                 <li><a href="Amenities.aspx">AMENITIES</a></li>
-                 <li class="active"><a href="#">HOME</a></li>
+                       <li><a href="Map.aspx">MAP</a></li>
+                       <li><a href="Amenities.aspx">AMENITIES</a></li>
+                       <li class="active"><a href="#">HOME</a></li>
                   </ul>
              </nav>
          </div>
