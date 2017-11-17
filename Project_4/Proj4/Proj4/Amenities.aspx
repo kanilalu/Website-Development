@@ -13,11 +13,14 @@
 <body>
     <form id="form1" runat="server">
          </form>
-        <header>
-      <div class="container-fluid">
+       
+     
+
+      <header>
+           <div class="container">
          <div class="row">
            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                    MEADOW HILLS CONDOMINIUM
+                 <h5>   MEADOW HILLS CONDOMINIUM  </h5>
            </div>
             
 
@@ -27,7 +30,7 @@
                  <li class="active"><a href="#">CONTACT US</a></li>
                  <li><a href="#">MAP</a></li>
                  <li><a href="#">AMENITIES</a></li>
-                 <li><a href="#">HOME</a></li>
+                 <li><a href="default.aspx">HOME</a></li>
              </ul>
              </nav>  
              </div>
@@ -36,40 +39,104 @@
       
     </header>
    
+     <div class="container">
+
+         <div class ="row">
+              <div class ="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center ">
+                  <div class="black">
+                      <p> <b>Call Us </b> </p>
+                  <p>  <b> Phone: </b> 7207673370 </p>
+                  </div>
+              </div> 
+         </div>
 
      <div class="row">
           <div class ="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-              <h1> AMENITIES </h1>
-              <p> Meadow Hills Condominium offers residents a variety of amenities including a fitness studio, resident lounge with business center, and so much more! The premium interior features and desirable Aurora location provide both comfort and convenience to all of our residents. Check out our menu of features and our gallery for a look into what we offer, or come visit us today for your personal tour! </p>
+              <h4> AMENITIES </h4>
+              <p> Meadow Hills Condominium offers residents a variety of amenities including a fitness studio, resident lounge with business center, and so much more! The premium interior features and desirable Aurora location provide both comfort and convenience to all of our residents. Come visit us today for your personal tour! </p>
+          </div>
+     </div>
 
-
-
-
-
-
+         <br>
 
      <div class="row">
+          <div class ="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+              <h4> COMMUNITY AMENITIES </h4>
+              <ul>
+                       <li>Two Hot Tubs</li>
+                       <li>Swimming Pool</li>
+                       <li>Media Room</li>
+                       <li>Reserved Garage Parking</li>
+                       <li>24-Hour Fitness Center</li>
+                       <li>Smoke Free Living</li>
+                       <li>Bocce Ball Court</li>
+                       <li>Near University of Denver</li>
+                       <li>Opposite to Cherry Creek State park</li>
+                       <li>Next to Meadow Hills Golf Course</li>
+                       <li>Cherry Creek School District</li>
+                       <li>Near King soopers and walmart</li>
+                       <li>Easy Access to Highways I-255 and I-25</li>
+                       <li>Near Nine Mile Station (LightRail), RTD</li>
+                       <li>Clubhouse with WiFi</li>
+              </ul>
+          </div>
+          <div class ="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+              <h4> APARTMENT AMENITIES </h4>
+              <ul>
+                       <li>Wood-Style Flooring</li>
+                       <li>Walk-In Closets</li>
+                       <li>Vaulted Ceilings</li>
+                       <li>Stainless Steel Appliances in select homes</li>
+                       <li>Private Balcony</li>
+                       <li>Island Kitchens</li>
+                       <li>In-Home Washer and Dryer</li>
+                       <li>Granite Counters </li>
+                       <li>Gas Fireplace</li>
+                       <li>Garden Tub</li>
+                       <li>Extended Living Rooms</li>
+                       <li>Ceiling Fans</li>
+                       <li>Bay Windows</li>
+                       <li>Air Conditioning</li>
+                       <li>9 Foot Ceilings</li>
+              </ul>
+          </div>
+           <div class ="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+              <h4> PET RULE </h4>
+              <p>Pets - Max 3 allowed, One time Fee $100.00, Rent  </p>
+              <p>$40.00, Deposit $300.00 </p>
+              <p> <b>Comments: </b> 3 pets maximum per household. Deposit and one-time fee are the same for 1-3 pet(s). $40 pet rent PER dog and $40 pet rent PER cat.</p>
+              <p> <b>Restrictions: </b> No Aggressive Breeds</p>
+          </div>
+
+     </div>
+
+   <div class="black">  
+     <div class="row">
           <div class ="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-     <footer>
+               
               <nav> 
                    <ul>
-                       <li>CONTACT US</li>
-                       <li>MAP</li>
-                       <li>AMENITIES</li>
-                       <li>HOME</li>
+                       <li><a href="#">CONTACT US</a></li>
+                       <li><a href="#">MAP</a></li>
+                       <li><a href="#">AMENITIES</a></li>
+                       <li class="active"><a href="default.aspx">HOME</a></li>
                   </ul>
              </nav>
          </div>
        </div>
-
+    
       <br>
-
+      
+      
       <div class="row">
           <div class ="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
              <small>© 2017 KANIMOZHI MANAGEMENT. ALL RIGHTS RESERVED. </small> 
            </div>
       </div>
-    </footer>
+      </div>
+ 
+   
 
+    
 </body>
 </html>

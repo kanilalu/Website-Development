@@ -15,10 +15,10 @@
     <form id="form1" runat="server">
     </form>
     <header>
-      <div class="container-fluid">
+      <div class="container">
          <div class="row">
            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                    MEADOW HILLS CONDOMINIUM
+                 <h5>   MEADOW HILLS CONDOMINIUM  </h5>
            </div>
             
 
@@ -97,10 +97,10 @@
      <footer>
               <nav> 
                    <ul>
-                       <li>CONTACT US</li>
-                       <li>MAP</li>
-                       <li>AMENITIES</li>
-                       <li>HOME</li>
+                       <li><a href="#">CONTACT US</a></li>
+                 <li><a href="#">MAP</a></li>
+                 <li><a href="Amenities.aspx">AMENITIES</a></li>
+                 <li class="active"><a href="#">HOME</a></li>
                   </ul>
              </nav>
          </div>
