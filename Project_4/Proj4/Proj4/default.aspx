@@ -25,11 +25,10 @@
              <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
              <nav>
              <ul>
-                 <li class="active"><a href="#">HOME</a></li>
-                 <li><a href="#">AMENITIES</a></li>
-                 <li><a href="#">FLOOR PLANS</a></li>
+                 <li class="active"><a href="#">CONTACT US</a></li>
                  <li><a href="#">MAP</a></li>
-                 <li><a href="#">CONTACT US</a></li>
+                 <li><a href="Amenities.aspx">AMENITIES</a></li>
+                 <li><a href="#">HOME</a></li>
              </ul>
              </nav>  
              </div>
@@ -98,18 +97,19 @@
      <footer>
               <nav> 
                    <ul>
-                       <li>HOME |</li>
-                       <li>AMENITIES |</li>
-                       <li>FLOOR PLANS |</li>
-                       <li>MAP |</li>
                        <li>CONTACT US</li>
+                       <li>MAP</li>
+                       <li>AMENITIES</li>
+                       <li>HOME</li>
                   </ul>
              </nav>
          </div>
        </div>
 
+      <br>
+
       <div class="row">
-          <div class ="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <div class ="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
              <small>© 2017 KANIMOZHI MANAGEMENT. ALL RIGHTS RESERVED. </small> 
            </div>
       </div>

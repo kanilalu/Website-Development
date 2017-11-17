@@ -1,16 +1,17 @@
-﻿header {
+﻿
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    color: black;
+}
+
+header {
     width: 80%;
     background-color: white;
     color: black;
     margin-right: auto;
     margin-left: auto;
     height: 75px;
-}
-
-body {
-    font-family: 'Times New Roman', Times, serif;
-    background-color: black;
-    color: white;
 }
 
 nav {
@@ -28,6 +29,3 @@ nav {
         margin: 0;
         padding: 0;
     }
-
-ul li {
-}
