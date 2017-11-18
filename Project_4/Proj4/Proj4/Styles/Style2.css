@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    width: 83%;
+    width: 82.5%;
     background-color: #F0E3E3;
     color: black;
     margin-right: auto;
@@ -14,9 +14,15 @@ header {
     height: 50px;
 }
 .black {
+    
     background-color: black;
     color: white;
     font-family: 'Times New Roman', Times, serif;
+}
+
+.black_head {
+    background-color: black;
+     
 }
 
 
@@ -58,3 +64,14 @@ table {
     .left2 > textarea {
         width: 100%
     }
+
+    .submit{
+        text-align:center;
+    }
+
+nav li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}

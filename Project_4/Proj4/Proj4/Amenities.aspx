@@ -13,14 +13,26 @@
 <body>
     <form id="form1" runat="server">
          </form>
-       
-     
+
+     <div class="container"> 
+       <div class ="row">
+              <div class ="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                  <div class="black_head">
+                      <label></label>
+                      </div>
+                  </div>
+              </div>
+    </div>
 
       <header>
            <div class="container">
+
+              
+
          <div class="row">
            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                 <h5>   MEADOW HILLS CONDOMINIUM  </h5>
+                 <h5>   MEADOW HILLS <br> 
+                     CONDOMINIUM  </h5>
            </div>
             
 
@@ -44,10 +56,10 @@
          <div class ="row">
               <div class ="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center ">
                   <div class="black">
-                      <br>
+                   
                       <p style="font-size:1.2em"> Call Us  </p>
-                <p style="font-size:1.5em"> 7207673370  </p> 
-                     <br>
+                      <p style="font-size:1.5em"> 7207673370  </p> 
+                  
                   </div>
               </div> 
          </div>

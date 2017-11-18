@@ -14,11 +14,22 @@
 <body>
     <form id="form1" runat="server">
         
+        <div class="container"> 
+       <div class ="row">
+              <div class ="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                  <div class="black_head">
+                      <label></label>
+                      </div>
+                  </div>
+              </div>
+    </div>
+
         <header>
            <div class="container">
          <div class="row">
            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                 <h5>   MEADOW HILLS CONDOMINIUM  </h5>
+                <h5>   MEADOW HILLS <br> 
+                     CONDOMINIUM  </h5>
            </div>
             
 
@@ -42,22 +53,30 @@
              <div class ="row">
               <div class ="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center ">
                   <div class="black">
-                      <br>
-                      <p style="font-size:1.5em"> <b>Call Us </b> </p>
-                  <p style="font-size:1.5em">  <b> Phone: </b> 7207673370 </p>
-                      <br>
+                      <p style="font-size:1.2em"> Call Us  </p>
+                      <p style="font-size:1.5em"> 7207673370  </p> 
                   </div>
               </div> 
          </div>
 
              <br>
-             <h4>CONTACT US</h4>
+             
              <div class="row">
                   <div class ="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                      <h4>How can we help you</h4>
                      <table>
                         <tr>
                          <td>
-                            <label class="left">Name</label>
+                            <label class="left">First Name</label>
+                            <div class="left2">
+                              <input type="text" name="name" />
+                            </div>
+                       </td>
+                    </tr>
+
+                         <tr>
+                         <td>
+                            <label class="left">Last Name</label>
                             <div class="left2">
                               <input type="text" name="name" />
                             </div>
@@ -75,7 +94,34 @@
 
                      <tr>
                          <td>
-                            <label class="left">Phone number</label>
+                            <label class="left">Phone</label>
+                            <div class="left2">
+                               <input type="text" name="phno" />
+                            </div>
+                       </td>
+                    </tr> 
+
+                         <tr>
+                         <td>
+                            <label class="left">Alt Phone</label>
+                            <div class="left2">
+                               <input type="text" name="phno" />
+                            </div>
+                       </td>
+                    </tr> 
+
+                         <tr>
+                         <td>
+                            <label class="left">Bedrooms</label>
+                            <div class="left2">
+                               <input type="text" name="phno" />
+                            </div>
+                       </td>
+                    </tr> 
+
+                         <tr>
+                         <td>
+                            <label class="left">Preferred Rent</label>
                             <div class="left2">
                                <input type="text" name="phno" />
                             </div>
@@ -94,23 +140,66 @@
 
                     <tr>
                          <td>
-                             <div class="align-content-center">
-                               <button type="button" class="btn btn-primary btn-block">Button 1</button>
+                             <div style="text-align:center;">
+                               <button type="button" class="btn btn-danger btn-md">Submit</button>
                              </div>
                          </td>
                     </tr>
-
-              </table>
-
-                     
-                      
-                  </div>
+           </table>
+       </div>
                   <div class ="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                      <h4> Address</h4>
                       
-                      
-                  </div>
-             </div>    
+                      <h6> Meadow Hills Condominium <br>
+                           East Lehigh Avenue <br>
+                           Aurora, CO 80014 <br>
+                           (720)767-3370 <br>
+                          Meadowhillscondo@gmail.com
+                      </h6>
 
+                      <br>
+
+                     <h4> Office Hours</h4>
+                      
+                      <h6> Monday 8:30AM-5:30PM <br>
+                           Tuesday 8:30AM-5:30PM <br>
+                           Wednesday 8:30AM-5:30PM <br>
+                           Thursday 8:30AM-5:30PM <br>
+                          Friday 8:30AM-5:30PM <br>
+                          Saturday 10AM-5PM <br>
+                          Sunday 1PM-5PM 
+
+                      </h6>
+                   </div>
+              </div>    
+
+             <br>
+
+              <div class="black">  
+     <div class="row">
+          <div class ="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+               <br>
+              <nav> 
+                   <ul>
+                       <li><a href="#">CONTACT US</a></li>
+                       <li><a href="Map.aspx">MAP</a></li>
+                       <li><a href="Amenities.aspx">AMENITIES</a></li>
+                       <li class="active"><a href="default.aspx">HOME</a></li>
+                  </ul>
+             </nav>
+         </div>
+       </div>
+    
+      <br>
+      
+      
+      <div class="row">
+          <div class ="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+             <small>© 2017 KANIMOZHI MANAGEMENT. ALL RIGHTS RESERVED. </small> 
+             
+           </div>
+      </div>
+      </div>
 
 
 

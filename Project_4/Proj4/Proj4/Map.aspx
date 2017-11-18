@@ -14,11 +14,22 @@
 <body>
     <form id="form1" runat="server">
   
+        <div class="container"> 
+       <div class ="row">
+              <div class ="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                  <div class="black_head">
+                      <label></label>
+                      </div>
+                  </div>
+              </div>
+    </div>
+
           <header>
            <div class="container">
          <div class="row">
            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                 <h5>   MEADOW HILLS CONDOMINIUM  </h5>
+                <h5>   MEADOW HILLS <br> 
+                     CONDOMINIUM  </h5>
            </div>
             
 
@@ -42,10 +53,8 @@
          <div class ="row">
               <div class ="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center ">
                   <div class="black">
-                      <br>
-                      <p style="font-size:1.5em"> <b>Call Us </b> </p>
-                  <p style="font-size:1.5em">  <b> Phone: </b> 7207673370 </p>
-                      <br>
+                      <p style="font-size:1.2em"> Call Us  </p>
+                      <p style="font-size:1.5em"> 7207673370  </p> 
                   </div>
               </div> 
          </div>
@@ -54,7 +63,7 @@
               <div class ="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                   <h4> MAP & DIRECTIONS </h4>
                   <p>Meadow Hills Condominium is conveniently located in Aurora, CO.Our East Lehigh and South parker location is ideal for explorers and just minutes from everywhere you want to be such as King Soopers, Walmart, and Cherry creek state park </p>
-                  <p> Our close proximity to Kennedy Golf Course make us one of the top locations in Aurora!</p>
+                  <p> Our close proximity to Meadow Hills Golf Course make us one of the top locations in Aurora!</p>
                   <p>Contact us today to schedule a tour of our apartments and see all the reasons why you will want to make us your new home! <p>
               </div>
          </div>

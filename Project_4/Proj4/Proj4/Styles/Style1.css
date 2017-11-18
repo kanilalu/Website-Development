@@ -16,11 +16,13 @@ body {
 nav {
     width: 100%;
     float: right;
+   
 }
 
     nav li {
         float: right;
         margin-right: 100px;
+        
     }
 
     nav ul {
@@ -29,5 +31,9 @@ nav {
         padding: 0;
     }
 
-ul li {
-}
+    nav li a {
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        color: black;
+    }
