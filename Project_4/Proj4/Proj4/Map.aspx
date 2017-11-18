@@ -25,7 +25,7 @@
              <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
              <nav>
              <ul>
-                 <li class="active"><a href="#">CONTACT US</a></li>
+                 <li class="active"><a href="Contactus.aspx">CONTACT US</a></li>
                  <li><a href="#">MAP</a></li>
                  <li><a href="Amenities.aspx">AMENITIES</a></li>
                  <li><a href="default.aspx">HOME</a></li>
@@ -83,8 +83,37 @@
 </script>
              <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbdcrdZmP46QhdkmP-Tipc75gLPzScHac&callback=myMap"></script>
              
+      </div>
+     </div> 
+
+         <div class="black">  
+     <div class="row">
+          <div class ="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+               <br>
+              <nav> 
+                   <ul>
+                       <li><a href="Contactus.aspx">CONTACT US</a></li>
+                       <li><a href="#">MAP</a></li>
+                       <li><a href="Amenities.aspx">AMENITIES</a></li>
+                       <li class="active"><a href="default.aspx">HOME</a></li>
+                  </ul>
+             </nav>
          </div>
-        </div> 
+       </div>
+    
+      <br>
+      
+      
+      <div class="row">
+          <div class ="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+             <small>© 2017 KANIMOZHI MANAGEMENT. ALL RIGHTS RESERVED. </small> 
+              
+           </div>
+      </div>
+      </div>
+ 
+   
+
 
          </form> 
 </body>

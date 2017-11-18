@@ -27,7 +27,7 @@
              <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
              <nav>
              <ul>
-                 <li class="active"><a href="#">CONTACT US</a></li>
+                 <li class="active"><a href="Contactus.aspx">CONTACT US</a></li>
                  <li><a href="Map.aspx">MAP</a></li>
                  <li><a href="#">AMENITIES</a></li>
                  <li><a href="default.aspx">HOME</a></li>
@@ -45,9 +45,9 @@
               <div class ="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center ">
                   <div class="black">
                       <br>
-                      <p style="font-size:1.5em"> Call Us  </p>
-                <p style="font-size:1.5em">   Phone:  7207673370  </p> 
-                      <br>
+                      <p style="font-size:1.2em"> Call Us  </p>
+                <p style="font-size:1.5em"> 7207673370  </p> 
+                     <br>
                   </div>
               </div> 
          </div>
@@ -115,10 +115,10 @@
    <div class="black">  
      <div class="row">
           <div class ="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-               
+               <br>
               <nav> 
                    <ul>
-                       <li><a href="#">CONTACT US</a></li>
+                       <li><a href="Contactus.aspx">CONTACT US</a></li>
                        <li><a href="Map.aspx">MAP</a></li>
                        <li><a href="#">AMENITIES</a></li>
                        <li class="active"><a href="default.aspx">HOME</a></li>
@@ -133,6 +133,7 @@
       <div class="row">
           <div class ="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
              <small>© 2017 KANIMOZHI MANAGEMENT. ALL RIGHTS RESERVED. </small> 
+             
            </div>
       </div>
       </div>

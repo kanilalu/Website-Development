@@ -35,3 +35,26 @@ nav {
         margin: 0;
         padding: 0;
     }
+
+table {
+    border: 1px solid black;
+    width: 500px;
+}
+
+.left {
+    float: left;
+}
+
+.left2 {
+    float: right;
+    overflow: hidden;
+    padding: 0 4px;
+}
+
+    .left2 > input {
+        width: 100%
+    }
+
+    .left2 > textarea {
+        width: 100%
+    }
