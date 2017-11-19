@@ -5,7 +5,19 @@
 <html lang ="en">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Meadow Hills</title>
+
+    <!--UTF-8 (Unicode) covers all of the characters and symbols in the world. charset attribute specifies the character encoding for the HTML document. -->
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>    <!-- Defines the title of the document. Defines a title in the browser toolbar. Unique title tag on every page. second part of title is used to increase SEO -->
+    <title>Amenities of Meadow Hills| Condominium in Aurora</title>
+    <!--Summarizes a page’s content. Search engines shows the meta description in search results.Search engine looks for searched phrase in description -->
+    <meta name="description" content="The Meadow Hills Condominium in Aurora, CO offers one, two, or three bedroom condominiums for rent in South parker road. View community amenities and map. Make Meadow Hills Condominium your new home."/>
+    <!--Indicators of a website's content to search engines. -->
+    <meta name="keywords" content="Condo,Meadow hills condo,condo in aurora CO,condominium for rent in aurora,Aurora CO condo, condo Aurora" />
+    <!--Used to name the author of the page -->
+    <meta name="author" content="Kanimozhi Murugesan" />
+    <!--Control page's width and scaling on different devices.Gives instruction to browser on how to control the page's dimensions and scaling. width=device-width part sets the width of the page to follow the screen-width of the device. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" >
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="Styles/Style2.css" media="screen">
@@ -129,12 +141,12 @@
           <div class ="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                <br>
               <nav> 
-                   <ul>
+                   <ol>
                        <li><a href="Contactus.aspx">CONTACT US</a></li>
                        <li><a href="Map.aspx">MAP</a></li>
                        <li><a href="#">AMENITIES</a></li>
                        <li class="active"><a href="default.aspx">HOME</a></li>
-                  </ul>
+                  </ol>
              </nav>
          </div>
        </div>

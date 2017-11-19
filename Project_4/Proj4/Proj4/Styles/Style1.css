@@ -13,27 +13,31 @@ body {
     color: white;
 }
 
-nav {
-    width: 100%;
-    float: right;
-   
-}
+
 
     nav li {
         float: right;
         margin-right: 100px;
-        
     }
 
-    nav ul {
+
+
+
+    nav ol {
         list-style-type: none;
         margin: 0;
         padding: 0;
     }
 
-    nav li a {
+    nav ol li a {
         display: block;
         text-decoration: none;
         text-align: center;
-        color: black;
+        color: white;
     }
+
+
+
+
+
+

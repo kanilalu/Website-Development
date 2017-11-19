@@ -44,7 +44,7 @@ nav {
 
 table {
     border: 1px solid black;
-    width: 500px;
+    width: 350px;
 }
 
 .left {
@@ -74,4 +74,21 @@ nav li a {
     text-decoration: none;
     text-align: center;
     color: black;
+}
+
+nav ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+    nav ol li a {
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        color: white;
+    }
+
+.img-responsive {
+    width: 100%;
 }
