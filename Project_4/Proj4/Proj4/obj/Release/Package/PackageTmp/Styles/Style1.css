@@ -1,0 +1,56 @@
+﻿header {
+    width: 83%;
+    background-color: #F0E3E3;
+    color: black;
+    margin-right: auto;
+    margin-left: auto;
+    height: 50px;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
+}
+
+nav li {
+    float: right;
+    margin-right: 100px;
+}
+
+ol {
+    width: 100%;
+    display: table;
+    text-align: center;
+}
+
+    ol li {
+        display: inline-block;
+        float: none;
+        margin-right: 100px;
+    }
+
+     nav ol {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ol li a {
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        color: white;
+    }
+
+.collapse.navbar-collapse {
+    float: right;
+}
+
+
+
+
+
+
+
+
