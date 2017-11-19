@@ -34,47 +34,47 @@
                       </div>
                   </div>
               </div>
-    </div>
-
-      <header>
-           <div class="container">
-
-              
-
-         <div class="row">
-           <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                 <h5>   MEADOW HILLS <br> 
-                     CONDOMINIUM  </h5>
-           </div>
-            
-
-             <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
-             <nav>
-             <ul>
-                 <li class="active"><a href="Contactus.aspx">CONTACT US</a></li>
-                 <li><a href="Map.aspx">MAP</a></li>
-                 <li><a href="#">AMENITIES</a></li>
-                 <li><a href="default.aspx">HOME</a></li>
-             </ul>
-             </nav>  
-             </div>
-          </div>
-          </div>
-      
-    </header>
+       
+ <div class ="row">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+  <a class="navbar-brand" href="#">MEADOW HILLS <br> CONDOMINIUM</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+       
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item ">
+        <a class="nav-link" href="default.aspx">HOME <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">AMENITIES</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Map.aspx">MAP</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Contactus.aspx">CONTACT US</a>
+      </li>
+    </ul>
+       </div> 
+ </nav>
+        </div>
    
-     <div class="container">
-
+     
+   
          <div class ="row">
               <div class ="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center ">
                   <div class="black">
                    
                       <p style="font-size:1.2em"> Call Us  </p>
                       <p style="font-size:1.5em"> 7207673370  </p> 
+                      <div class="colored-strip"></div>
                   
                   </div>
               </div> 
          </div>
+
 
      <div class="row">
           <div class ="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -164,6 +164,6 @@
  
    
 
-    
+</div>    
 </body>
 </html>
