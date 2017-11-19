@@ -14,16 +14,13 @@ body {
 }
 
 
-
     nav li {
         float: right;
         margin-right: 100px;
     }
 
 
-
-
-    nav ol {
+     nav ol {
         list-style-type: none;
         margin: 0;
         padding: 0;
@@ -35,6 +32,10 @@ body {
         text-align: center;
         color: white;
     }
+
+.collapse.navbar-collapse {
+    float: right;
+}
 
 
 
