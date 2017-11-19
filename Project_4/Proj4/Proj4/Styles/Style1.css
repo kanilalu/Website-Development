@@ -13,12 +13,22 @@ body {
     color: white;
 }
 
+nav li {
+    float: right;
+    margin-right: 100px;
+}
 
-    nav li {
-        float: right;
+ol {
+    width: 100%;
+    display: table;
+    text-align: center;
+}
+
+    ol li {
+        display: inline-block;
+        float: none;
         margin-right: 100px;
     }
-
 
      nav ol {
         list-style-type: none;
@@ -36,6 +46,8 @@ body {
 .collapse.navbar-collapse {
     float: right;
 }
+
+
 
 
 

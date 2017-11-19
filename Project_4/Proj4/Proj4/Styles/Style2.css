@@ -36,6 +36,18 @@ nav {
         margin-right: 100px;
     }
 
+ol {
+    width: 100%;
+    display: table;
+    text-align: center;
+}
+
+    ol li {
+        display: inline-block;
+        float: none;
+        margin-right: 100px;
+    }
+
     nav ul {
         list-style-type: none;
         margin: 0;
@@ -89,6 +101,16 @@ nav ol {
         color: white;
     }
 
-.img-responsive {
-    width: 100%;
+
+.colored-strip {
+    height: 5px;
+    margin: 0;
+}
+
+.colored-strip {
+    background: #3a8eae;
+    background-image: -webkit-linear-gradient(left, #3a8eae, #3a8eae 20%, #c03258 20%, #c03258 40%, #bd9226 40%, #bd9226 60%, #94c16c 60%, #94c16c 80%, #3a8eae 80%, #3a8eae);
+    background-image: -moz-linear-gradient(left, #3a8eae, #3a8eae 20%, #c03258 20%, #c03258 40%, #bd9226 40%, #bd9226 60%, #94c16c 60%, #94c16c 80%, #3a8eae 80%, #3a8eae);
+    background-image: -o-linear-gradient(left, #3a8eae, #3a8eae 20%, #c03258 20%, #c03258 40%, #bd9226 40%, #bd9226 60%, #94c16c 60%, #94c16c 80%, #3a8eae 80%, #3a8eae);
+    background-image: linear-gradient(to right, #3a8eae, #3a8eae 20%, #c03258 20%, #c03258 40%, #bd9226 40%, #bd9226 60%, #94c16c 60%, #94c16c 80%, #3a8eae 80%, #3a8eae);
 }

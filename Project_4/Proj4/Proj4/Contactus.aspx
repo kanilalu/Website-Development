@@ -69,6 +69,7 @@
                    
                       <p style="font-size:1.2em"> Call Us  </p>
                       <p style="font-size:1.5em"> 7207673370  </p> 
+                      <div class="colored-strip"></div>
                   
                   </div>
               </div> 
@@ -196,10 +197,10 @@
                <br>
               <nav> 
                    <ol>
-                       <li><a href="#">CONTACT US</a></li>
-                       <li><a href="Map.aspx">MAP</a></li>
+                       <li><a href="default.aspx">HOME</a></li>
                        <li><a href="Amenities.aspx">AMENITIES</a></li>
-                       <li class="active"><a href="default.aspx">HOME</a></li>
+                       <li><a href="Map.aspx">MAP</a></li>
+                       <li class="active"><a href="#">CONTACT US</a></li>
                   </ol>
              </nav>
          </div>
@@ -220,5 +221,10 @@
 
          </div>
     </form>
+
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
 </body>
 </html>
