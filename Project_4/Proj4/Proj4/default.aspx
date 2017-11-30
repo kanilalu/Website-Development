@@ -51,7 +51,7 @@
 
  <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-  <a class="navbar-brand" href="#">MEADOW HILLS <br >CONDOMINIUM</a>
+  <a class="navbar-brand" href="#">  <img class="logo"  src="Images/logo.ico" alt="logo of medow hills">  MEADOW HILLS <br > &nbsp; &nbsp; &nbsp; &nbsp; CONDOMINIUM</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>

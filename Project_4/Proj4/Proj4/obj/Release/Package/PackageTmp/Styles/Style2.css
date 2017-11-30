@@ -114,3 +114,10 @@ nav ol {
     background-image: -o-linear-gradient(left, #3a8eae, #3a8eae 20%, #c03258 20%, #c03258 40%, #bd9226 40%, #bd9226 60%, #94c16c 60%, #94c16c 80%, #3a8eae 80%, #3a8eae);
     background-image: linear-gradient(to right, #3a8eae, #3a8eae 20%, #c03258 20%, #c03258 40%, #bd9226 40%, #bd9226 60%, #94c16c 60%, #94c16c 80%, #3a8eae 80%, #3a8eae);
 }
+
+.logo {
+    width: 42px;
+    height: 42px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
