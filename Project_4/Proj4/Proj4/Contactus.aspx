@@ -141,7 +141,11 @@
                          <td>
                             <label class="left">Bedrooms</label>
                             <div class="left2">
-                               <input type="text" name="phno" />
+                              <select name="bed">
+                                 <option value="bed1">1 Bedroom</option>
+                                 <option value="bed2">2 Bedroom</option>
+                                 <option value="bed3">3 Bedroom</option>
+                              </select>
                             </div>
                        </td>
                     </tr> 
