@@ -96,7 +96,7 @@
                          <td>
                             <label class="left">First Name</label>
                             <div class="left2">
-                              <input type="text" name="name" />
+                              <input type="text" name="fname" />
                             </div>
                        </td>
                     </tr>
@@ -105,7 +105,7 @@
                          <td>
                             <label class="left">Last Name</label>
                             <div class="left2">
-                              <input type="text" name="name" />
+                              <input type="text" name="lname" />
                             </div>
                        </td>
                     </tr>
@@ -132,7 +132,7 @@
                          <td>
                             <label class="left">Alt Phone</label>
                             <div class="left2">
-                               <input type="text" name="phno" />
+                               <input type="text" name="alt_phno" />
                             </div>
                        </td>
                     </tr> 
@@ -142,9 +142,9 @@
                             <label class="left">Bedrooms</label>
                             <div class="left2">
                               <select name="bed">
-                                 <option value="bed1">1 Bedroom</option>
-                                 <option value="bed2">2 Bedroom</option>
-                                 <option value="bed3">3 Bedroom</option>
+                                 <option value="bed1">1 </option>
+                                 <option value="bed2">2 </option>
+                                 <option value="bed3">3 </option>
                               </select>
                             </div>
                        </td>
@@ -154,7 +154,7 @@
                          <td>
                             <label class="left">Preferred Rent</label>
                             <div class="left2">
-                               <input type="text" name="phno" />
+                               <input type="text" name="rent" />
                             </div>
                        </td>
                     </tr> 
@@ -163,7 +163,7 @@
                          <td>
                             <label class="left">Message</label>
                             <div class="left2">
-                                <textarea id="TextArea1" cols="20" rows="2"></textarea>
+                                <textarea name="msg" cols="20" rows="2"></textarea>
                             </div>
                        </td>
                     </tr> 
