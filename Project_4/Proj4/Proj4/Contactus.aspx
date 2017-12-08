@@ -34,7 +34,7 @@
     <link rel="stylesheet" type="text/css" href="Styles/Style2.css" media="screen">
     <style type="text/css">
         .auto-style1 {
-            width: 509px;
+            width: 331px;
         }
     </style>
 </head>
@@ -93,7 +93,7 @@
 
              <br>
              
-             <div c>
+             <div class="row">
                   <div class ="col-xs-12 col-sm-12 col-md-8 col-lg-8">
                       <h4>How can we help you</h4>
                      <table>
@@ -209,13 +209,15 @@
                       </h6>
                    </div>
               </div>  
+
+            <br>
             
              <div class="row">
                   <div class ="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
 
 
-                      <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="Cus_Id" DataSourceID="SqlDataSource1">
+                      <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" BackColor="#CCCCCC" BorderColor="#999999" BorderStyle="Solid" BorderWidth="3px" CellPadding="4" CellSpacing="2" DataKeyNames="Cus_Id" DataSourceID="SqlDataSource1" ForeColor="Black">
                           <Columns>
                               <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" ShowSelectButton="True" />
                               <asp:BoundField DataField="Cus_Id" HeaderText="Cus_Id" ReadOnly="True" SortExpression="Cus_Id" />
@@ -228,6 +230,15 @@
                               <asp:BoundField DataField="rent" HeaderText="rent" SortExpression="rent" />
                               <asp:BoundField DataField="msg" HeaderText="msg" SortExpression="msg" />
                           </Columns>
+                          <FooterStyle BackColor="#CCCCCC" />
+                          <HeaderStyle BackColor="Black" Font-Bold="True" ForeColor="White" />
+                          <PagerStyle BackColor="#CCCCCC" ForeColor="Black" HorizontalAlign="Left" />
+                          <RowStyle BackColor="White" />
+                          <SelectedRowStyle BackColor="#000099" Font-Bold="True" ForeColor="White" />
+                          <SortedAscendingCellStyle BackColor="#F1F1F1" />
+                          <SortedAscendingHeaderStyle BackColor="#808080" />
+                          <SortedDescendingCellStyle BackColor="#CAC9C9" />
+                          <SortedDescendingHeaderStyle BackColor="#383838" />
                       </asp:GridView>
                       <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConflictDetection="CompareAllValues" ConnectionString="<%$ ConnectionStrings:Meadowhills_proj5ConnectionString %>" DeleteCommand="DELETE FROM [customer] WHERE [Cus_Id] = @original_Cus_Id AND [fname] = @original_fname AND [lname] = @original_lname AND [email] = @original_email AND [phno] = @original_phno AND [alt_phno] = @original_alt_phno AND [bed] = @original_bed AND [rent] = @original_rent AND [msg] = @original_msg" InsertCommand="INSERT INTO [customer] ([Cus_Id], [fname], [lname], [email], [phno], [alt_phno], [bed], [rent], [msg]) VALUES (@Cus_Id, @fname, @lname, @email, @phno, @alt_phno, @bed, @rent, @msg)" OldValuesParameterFormatString="original_{0}" SelectCommand="SELECT [Cus_Id], [fname], [lname], [email], [phno], [alt_phno], [bed], [rent], [msg] FROM [customer]" UpdateCommand="UPDATE [customer] SET [fname] = @fname, [lname] = @lname, [email] = @email, [phno] = @phno, [alt_phno] = @alt_phno, [bed] = @bed, [rent] = @rent, [msg] = @msg WHERE [Cus_Id] = @original_Cus_Id AND [fname] = @original_fname AND [lname] = @original_lname AND [email] = @original_email AND [phno] = @original_phno AND [alt_phno] = @original_alt_phno AND [bed] = @original_bed AND [rent] = @original_rent AND [msg] = @original_msg">
                           <DeleteParameters>
