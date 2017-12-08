@@ -23,7 +23,7 @@
     <!--Summarizes a page’s content. Search engines shows the meta description in search results.Search engine looks for searched phrase in description -->
     <meta name="description" content="The Meadow Hills Condominium in Aurora, CO offers one, two, or three bedroom condominiums for rent in South parker road. View community amenities and map. Make Meadow Hills Condominium your new home."/>
     <!--Indicators of a website's content to search engines. -->
-    <meta name="keywords" content="Condo,Meadow hills condo,condo in aurora CO,condominium for rent in aurora,Aurora CO condo, condo Aurora" />
+    <meta name="keywords" content="Meadow Hills Golf Course, near walmart, near king soopers, Meadow hills,condo in aurora CO" />
     <!--Used to name the author of the page -->
     <meta name="author" content="Kanimozhi Murugesan" />
     <!--Control page's width and scaling on different devices.Gives instruction to browser on how to control the page's dimensions and scaling. width=device-width part sets the width of the page to follow the screen-width of the device. -->

@@ -1,2 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<parameters />
+<parameters>
+  <parameter name="Meadowhills_proj5ConnectionString-Web.config Connection String" description="Meadowhills_proj5ConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=meadowhills.database.windows.net;Initial Catalog=Meadowhills_proj5;Persist Security Info=True;User ID=kanimozhi;Password=Iaminusa1" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="G:\\College_sem\\MS\\Fall_2017\\Website_development\\Assignment\\Website-Development\\Project_5\\Proj4\\Proj4\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Meadowhills_proj5ConnectionString']/@connectionString" />
+  </parameter>
+</parameters>
