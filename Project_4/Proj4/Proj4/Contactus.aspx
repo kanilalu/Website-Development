@@ -32,6 +32,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="Styles/Style2.css" media="screen">
+    <style type="text/css">
+        .auto-style1 {
+            width: 509px;
+        }
+    </style>
 </head>
 
 <body>
@@ -88,12 +93,12 @@
 
              <br>
              
-             <div class="row">
+             <div c>
                   <div class ="col-xs-12 col-sm-12 col-md-8 col-lg-8">
                       <h4>How can we help you</h4>
                      <table>
                         <tr>
-                         <td>
+                         <td class="auto-style1">
                             <label class="left">First Name</label>
                             <div class="left2">
                               <input type="text" name="fname" />
@@ -102,7 +107,7 @@
                     </tr>
 
                          <tr>
-                         <td>
+                         <td class="auto-style1">
                             <label class="left">Last Name</label>
                             <div class="left2">
                               <input type="text" name="lname" />
@@ -111,7 +116,7 @@
                     </tr>
 
                     <tr>
-                         <td>
+                         <td class="auto-style1">
                             <label class="left">Email</label>
                             <div class="left2">
                               <input type="text" name="email" />
@@ -120,7 +125,7 @@
                     </tr>  
 
                      <tr>
-                         <td>
+                         <td class="auto-style1">
                             <label class="left">Phone</label>
                             <div class="left2">
                                <input type="text" name="phno" />
@@ -129,7 +134,7 @@
                     </tr> 
 
                          <tr>
-                         <td>
+                         <td class="auto-style1">
                             <label class="left">Alt Phone</label>
                             <div class="left2">
                                <input type="text" name="alt_phno" />
@@ -138,20 +143,18 @@
                     </tr> 
 
                          <tr>
-                         <td>
+                         <td class="auto-style1">
                             <label class="left">Bedrooms</label>
                             <div class="left2">
-                              <select name="bed">
-                                 <option value="bed1">1 </option>
-                                 <option value="bed2">2 </option>
-                                 <option value="bed3">3 </option>
-                              </select>
+                              &nbsp;<asp:DropDownList ID="DropDownList1" runat="server" DataSourceID="Project5" DataTextField="bed" DataValueField="bed">
+                                </asp:DropDownList>
+                                <asp:SqlDataSource ID="Project5" runat="server" ConnectionString="<%$ ConnectionStrings:Meadowhills_proj5ConnectionString %>" SelectCommand="SELECT [bed] FROM [customer]"></asp:SqlDataSource>
                             </div>
                        </td>
                     </tr> 
 
                          <tr>
-                         <td>
+                         <td class="auto-style1">
                             <label class="left">Preferred Rent</label>
                             <div class="left2">
                                <input type="text" name="rent" />
@@ -160,7 +163,7 @@
                     </tr> 
 
                     <tr>
-                         <td>
+                         <td class="auto-style1">
                             <label class="left">Message</label>
                             <div class="left2">
                                 <textarea name="msg" cols="20" rows="2"></textarea>
@@ -170,7 +173,7 @@
 
 
                     <tr>
-                         <td>
+                         <td class="auto-style1">
                              <div style="text-align:center;">
                                <button type="button" class="btn btn-danger btn-md">Submit</button>
                              </div>
@@ -178,6 +181,9 @@
                     </tr>
            </table>
        </div>
+
+                
+
                   <div class ="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                       <h4> Address</h4>
                       
@@ -202,7 +208,75 @@
 
                       </h6>
                    </div>
-              </div>    
+              </div>  
+            
+             <div class="row">
+                  <div class ="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+
+
+                      <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="Cus_Id" DataSourceID="SqlDataSource1">
+                          <Columns>
+                              <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" ShowSelectButton="True" />
+                              <asp:BoundField DataField="Cus_Id" HeaderText="Cus_Id" ReadOnly="True" SortExpression="Cus_Id" />
+                              <asp:BoundField DataField="fname" HeaderText="fname" SortExpression="fname" />
+                              <asp:BoundField DataField="lname" HeaderText="lname" SortExpression="lname" />
+                              <asp:BoundField DataField="email" HeaderText="email" SortExpression="email" />
+                              <asp:BoundField DataField="phno" HeaderText="phno" SortExpression="phno" />
+                              <asp:BoundField DataField="alt_phno" HeaderText="alt_phno" SortExpression="alt_phno" />
+                              <asp:BoundField DataField="bed" HeaderText="bed" SortExpression="bed" />
+                              <asp:BoundField DataField="rent" HeaderText="rent" SortExpression="rent" />
+                              <asp:BoundField DataField="msg" HeaderText="msg" SortExpression="msg" />
+                          </Columns>
+                      </asp:GridView>
+                      <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConflictDetection="CompareAllValues" ConnectionString="<%$ ConnectionStrings:Meadowhills_proj5ConnectionString %>" DeleteCommand="DELETE FROM [customer] WHERE [Cus_Id] = @original_Cus_Id AND [fname] = @original_fname AND [lname] = @original_lname AND [email] = @original_email AND [phno] = @original_phno AND [alt_phno] = @original_alt_phno AND [bed] = @original_bed AND [rent] = @original_rent AND [msg] = @original_msg" InsertCommand="INSERT INTO [customer] ([Cus_Id], [fname], [lname], [email], [phno], [alt_phno], [bed], [rent], [msg]) VALUES (@Cus_Id, @fname, @lname, @email, @phno, @alt_phno, @bed, @rent, @msg)" OldValuesParameterFormatString="original_{0}" SelectCommand="SELECT [Cus_Id], [fname], [lname], [email], [phno], [alt_phno], [bed], [rent], [msg] FROM [customer]" UpdateCommand="UPDATE [customer] SET [fname] = @fname, [lname] = @lname, [email] = @email, [phno] = @phno, [alt_phno] = @alt_phno, [bed] = @bed, [rent] = @rent, [msg] = @msg WHERE [Cus_Id] = @original_Cus_Id AND [fname] = @original_fname AND [lname] = @original_lname AND [email] = @original_email AND [phno] = @original_phno AND [alt_phno] = @original_alt_phno AND [bed] = @original_bed AND [rent] = @original_rent AND [msg] = @original_msg">
+                          <DeleteParameters>
+                              <asp:Parameter Name="original_Cus_Id" Type="String" />
+                              <asp:Parameter Name="original_fname" Type="String" />
+                              <asp:Parameter Name="original_lname" Type="String" />
+                              <asp:Parameter Name="original_email" Type="String" />
+                              <asp:Parameter Name="original_phno" Type="Decimal" />
+                              <asp:Parameter Name="original_alt_phno" Type="Decimal" />
+                              <asp:Parameter Name="original_bed" Type="Decimal" />
+                              <asp:Parameter Name="original_rent" Type="Decimal" />
+                              <asp:Parameter Name="original_msg" Type="String" />
+                          </DeleteParameters>
+                          <InsertParameters>
+                              <asp:Parameter Name="Cus_Id" Type="String" />
+                              <asp:Parameter Name="fname" Type="String" />
+                              <asp:Parameter Name="lname" Type="String" />
+                              <asp:Parameter Name="email" Type="String" />
+                              <asp:Parameter Name="phno" Type="Decimal" />
+                              <asp:Parameter Name="alt_phno" Type="Decimal" />
+                              <asp:Parameter Name="bed" Type="Decimal" />
+                              <asp:Parameter Name="rent" Type="Decimal" />
+                              <asp:Parameter Name="msg" Type="String" />
+                          </InsertParameters>
+                          <UpdateParameters>
+                              <asp:Parameter Name="fname" Type="String" />
+                              <asp:Parameter Name="lname" Type="String" />
+                              <asp:Parameter Name="email" Type="String" />
+                              <asp:Parameter Name="phno" Type="Decimal" />
+                              <asp:Parameter Name="alt_phno" Type="Decimal" />
+                              <asp:Parameter Name="bed" Type="Decimal" />
+                              <asp:Parameter Name="rent" Type="Decimal" />
+                              <asp:Parameter Name="msg" Type="String" />
+                              <asp:Parameter Name="original_Cus_Id" Type="String" />
+                              <asp:Parameter Name="original_fname" Type="String" />
+                              <asp:Parameter Name="original_lname" Type="String" />
+                              <asp:Parameter Name="original_email" Type="String" />
+                              <asp:Parameter Name="original_phno" Type="Decimal" />
+                              <asp:Parameter Name="original_alt_phno" Type="Decimal" />
+                              <asp:Parameter Name="original_bed" Type="Decimal" />
+                              <asp:Parameter Name="original_rent" Type="Decimal" />
+                              <asp:Parameter Name="original_msg" Type="String" />
+                          </UpdateParameters>
+                      </asp:SqlDataSource>
+
+
+
+                  </div>
+             </div>
 
              <br>
 
