@@ -56,7 +56,8 @@ ol {
 
 table {
     border: 1px solid black;
-    width: 350px;
+    width: 554px;
+    height: 678px;
 }
 
 .left {
@@ -66,7 +67,8 @@ table {
 .left2 {
     float: right;
     overflow: hidden;
-    padding: 0 4px;
+    padding: 3px;
+    width: 200px;
 }
 
     .left2 > input {
