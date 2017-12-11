@@ -183,8 +183,7 @@
                             </div>
                        </td>
                     </tr>
-
-                         
+      
                      
                  
            </table>
@@ -192,6 +191,38 @@
 
 
        </div>
+
+                 <br>
+
+
+                  <div class ="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                      <h4> Address</h4>
+                      
+                      <h6> Meadow Hills Condominium <br>
+                           East Lehigh Avenue <br>
+                           Aurora, CO 80014 <br>
+                           (720)767-3370 <br>
+                          Meadowhillscondo@gmail.com
+                      </h6>
+
+                      <br>
+
+                     <h4> Office Hours</h4>
+                      
+                      <h6> Monday 8:30AM-5:30PM <br>
+                           Tuesday 8:30AM-5:30PM <br>
+                           Wednesday 8:30AM-5:30PM <br>
+                           Thursday 8:30AM-5:30PM <br>
+                          Friday 8:30AM-5:30PM <br>
+                          Saturday 10AM-5PM <br>
+                          Sunday 1PM-5PM 
+
+                      </h6>
+                   </div>
+
+              </div>  
+
+            <br>
 
                  <div class ="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
@@ -255,31 +286,7 @@
 
                 
 
-                  <div class ="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                      <h4> Address</h4>
-                      
-                      <h6> Meadow Hills Condominium <br>
-                           East Lehigh Avenue <br>
-                           Aurora, CO 80014 <br>
-                           (720)767-3370 <br>
-                          Meadowhillscondo@gmail.com
-                      </h6>
-
-                      <br>
-
-                     <h4> Office Hours</h4>
-                      
-                      <h6> Monday 8:30AM-5:30PM <br>
-                           Tuesday 8:30AM-5:30PM <br>
-                           Wednesday 8:30AM-5:30PM <br>
-                           Thursday 8:30AM-5:30PM <br>
-                          Friday 8:30AM-5:30PM <br>
-                          Saturday 10AM-5PM <br>
-                          Sunday 1PM-5PM 
-
-                      </h6>
-                   </div>
-              </div>  
+                 
 
             <br>
             
