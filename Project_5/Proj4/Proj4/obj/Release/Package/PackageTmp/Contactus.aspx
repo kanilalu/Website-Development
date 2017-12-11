@@ -101,7 +101,9 @@
                          <td class="auto-style1">
                             <label class="left">First Name</label>
                             <div class="left2">
-                              <input type="text" name="fname" />
+                                <asp:TextBox ID="fname" runat="server" Width="195px"></asp:TextBox>
+                                &nbsp;<asp:RequiredFieldValidator ID="RequiredFieldValidatorfname" runat="server" ErrorMessage="Required field" ControlToValidate="fname"></asp:RequiredFieldValidator>
+                                
                             </div>
                        </td>
                     </tr>
@@ -110,7 +112,8 @@
                          <td class="auto-style1">
                             <label class="left">Last Name</label>
                             <div class="left2">
-                              <input type="text" name="lname" />
+                                <asp:TextBox ID="lname" runat="server"></asp:TextBox>
+                                <asp:RequiredFieldValidator ID="RequiredFieldValidatorlname" runat="server" ErrorMessage="Required Field" ControlToValidate="lname"></asp:RequiredFieldValidator>
                             </div>
                        </td>
                     </tr>
@@ -119,7 +122,8 @@
                          <td class="auto-style1">
                             <label class="left">Email</label>
                             <div class="left2">
-                              <input type="text" name="email" />
+                             <asp:TextBox ID="email" runat="server"></asp:TextBox>
+                                <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="Required Field" ControlToValidate="email"></asp:RequiredFieldValidator>
                             </div>
                        </td>
                     </tr>  
@@ -128,7 +132,8 @@
                          <td class="auto-style1">
                             <label class="left">Phone</label>
                             <div class="left2">
-                               <input type="text" name="phno" />
+                              <asp:TextBox ID="phno" runat="server"></asp:TextBox>
+                               <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="Required Field" ControlToValidate="phno"></asp:RequiredFieldValidator>
                             </div>
                        </td>
                     </tr> 
@@ -137,7 +142,7 @@
                          <td class="auto-style1">
                             <label class="left">Alt Phone</label>
                             <div class="left2">
-                               <input type="text" name="alt_phno" />
+                               <asp:TextBox ID="alt_phno" runat="server"></asp:TextBox>
                             </div>
                        </td>
                     </tr> 
@@ -146,7 +151,7 @@
                          <td class="auto-style1">
                             <label class="left">Bedrooms</label>
                             <div class="left2">
-                              &nbsp;<asp:DropDownList ID="DropDownList1" runat="server" DataSourceID="Project5" DataTextField="bed" DataValueField="bed">
+                              &nbsp;<asp:DropDownList ID="bed" runat="server" DataSourceID="Project5" DataTextField="bed" DataValueField="bed">
                                 </asp:DropDownList>
                                 <asp:SqlDataSource ID="Project5" runat="server" ConnectionString="<%$ ConnectionStrings:Meadowhills_proj5ConnectionString %>" SelectCommand="SELECT [bed] FROM [customer]"></asp:SqlDataSource>
                             </div>
@@ -157,7 +162,8 @@
                          <td class="auto-style1">
                             <label class="left">Preferred Rent</label>
                             <div class="left2">
-                               <input type="text" name="rent" />
+                              <asp:TextBox ID="rent" runat="server"></asp:TextBox>
+                                 <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ErrorMessage="Required Field" ControlToValidate="rent"></asp:RequiredFieldValidator>
                             </div>
                        </td>
                     </tr> 
@@ -166,19 +172,19 @@
                          <td class="auto-style1">
                             <label class="left">Message</label>
                             <div class="left2">
-                                <textarea name="msg" cols="20" rows="2"></textarea>
+                                <asp:TextBox ID="msg" runat="server"></asp:TextBox>
                             </div>
                        </td>
                     </tr> 
 
+                         
+                       <td>
 
-                    <tr>
-                         <td class="auto-style1">
-                             <div style="text-align:center;">
-                               <button type="button" class="btn btn-danger btn-md">Submit</button>
-                             </div>
-                         </td>
-                    </tr>
+                            <div class="center">
+                             <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Submit" />
+                            </div>
+                       </td>    
+                 
            </table>
        </div>
 
@@ -220,7 +226,7 @@
                       <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" BackColor="#CCCCCC" BorderColor="#999999" BorderStyle="Solid" BorderWidth="3px" CellPadding="4" CellSpacing="2" DataKeyNames="Cus_Id" DataSourceID="SqlDataSource1" ForeColor="Black">
                           <Columns>
                               <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" ShowSelectButton="True" />
-                              <asp:BoundField DataField="Cus_Id" HeaderText="Cus_Id" ReadOnly="True" SortExpression="Cus_Id" />
+                              
                               <asp:BoundField DataField="fname" HeaderText="fname" SortExpression="fname" />
                               <asp:BoundField DataField="lname" HeaderText="lname" SortExpression="lname" />
                               <asp:BoundField DataField="email" HeaderText="email" SortExpression="email" />
@@ -242,7 +248,7 @@
                       </asp:GridView>
                       <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConflictDetection="CompareAllValues" ConnectionString="<%$ ConnectionStrings:Meadowhills_proj5ConnectionString %>" DeleteCommand="DELETE FROM [customer] WHERE [Cus_Id] = @original_Cus_Id AND [fname] = @original_fname AND [lname] = @original_lname AND [email] = @original_email AND [phno] = @original_phno AND [alt_phno] = @original_alt_phno AND [bed] = @original_bed AND [rent] = @original_rent AND [msg] = @original_msg" InsertCommand="INSERT INTO [customer] ([Cus_Id], [fname], [lname], [email], [phno], [alt_phno], [bed], [rent], [msg]) VALUES (@Cus_Id, @fname, @lname, @email, @phno, @alt_phno, @bed, @rent, @msg)" OldValuesParameterFormatString="original_{0}" SelectCommand="SELECT [Cus_Id], [fname], [lname], [email], [phno], [alt_phno], [bed], [rent], [msg] FROM [customer]" UpdateCommand="UPDATE [customer] SET [fname] = @fname, [lname] = @lname, [email] = @email, [phno] = @phno, [alt_phno] = @alt_phno, [bed] = @bed, [rent] = @rent, [msg] = @msg WHERE [Cus_Id] = @original_Cus_Id AND [fname] = @original_fname AND [lname] = @original_lname AND [email] = @original_email AND [phno] = @original_phno AND [alt_phno] = @original_alt_phno AND [bed] = @original_bed AND [rent] = @original_rent AND [msg] = @original_msg">
                           <DeleteParameters>
-                              <asp:Parameter Name="original_Cus_Id" Type="String" />
+                             
                               <asp:Parameter Name="original_fname" Type="String" />
                               <asp:Parameter Name="original_lname" Type="String" />
                               <asp:Parameter Name="original_email" Type="String" />
@@ -253,7 +259,7 @@
                               <asp:Parameter Name="original_msg" Type="String" />
                           </DeleteParameters>
                           <InsertParameters>
-                              <asp:Parameter Name="Cus_Id" Type="String" />
+                            
                               <asp:Parameter Name="fname" Type="String" />
                               <asp:Parameter Name="lname" Type="String" />
                               <asp:Parameter Name="email" Type="String" />
@@ -272,7 +278,7 @@
                               <asp:Parameter Name="bed" Type="Decimal" />
                               <asp:Parameter Name="rent" Type="Decimal" />
                               <asp:Parameter Name="msg" Type="String" />
-                              <asp:Parameter Name="original_Cus_Id" Type="String" />
+                             
                               <asp:Parameter Name="original_fname" Type="String" />
                               <asp:Parameter Name="original_lname" Type="String" />
                               <asp:Parameter Name="original_email" Type="String" />

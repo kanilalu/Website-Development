@@ -56,12 +56,17 @@ ol {
 
 table {
     border: 1px solid black;
-    width: 375px;
+    width: 420px;
     height: auto;
 }
 
 .left {
     float: left;
+}
+
+.center {
+    padding-top: 2em;
+    text-align: center;
 }
 
 .left2 {
