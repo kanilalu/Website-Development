@@ -18,10 +18,11 @@
 
 
    <!--UTF-8 (Unicode) covers all of the characters and symbols in the world. charset attribute specifies the character encoding for the HTML document. -->
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>    <!-- Defines the title of the document. Defines a title in the browser toolbar. Unique title tag on every page. second part of title is used to increase SEO -->
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <!-- Defines the title of the document. Defines a title in the browser toolbar. Unique title tag on every page. second part of title is used to increase SEO -->
     <title>Map of Meadow Hills| Condominium in Aurora</title>
     <!--Summarizes a page’s content. Search engines shows the meta description in search results.Search engine looks for searched phrase in description -->
-    <meta name="description" content="The Meadow Hills Condominium in Aurora, CO offers one, two, or three bedroom condominiums for rent in South parker road. View community amenities and map. Make Meadow Hills Condominium your new home."/>
+    <meta name="description" content="Meadow Hills Condominium is situated in a great location."/>
     <!--Indicators of a website's content to search engines. -->
     <meta name="keywords" content="Meadow Hills Golf Course, near walmart, near king soopers, Meadow hills,condo in aurora CO" />
     <!--Used to name the author of the page -->

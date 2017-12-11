@@ -22,7 +22,7 @@
     <!-- Defines the title of the document. Defines a title in the browser toolbar. Unique title tag on every page. second part of title is used to increase SEO -->
     <title>Amenities of Meadow Hills| Condominium in Aurora</title>
     <!--Summarizes a page’s content. Search engines shows the meta description in search results.Search engine looks for searched phrase in description -->
-    <meta name="description" content="The Meadow Hills Condominium in Aurora, CO offers one, two, or three bedroom condominiums for rent in South parker road. View community amenities and map. Make Meadow Hills Condominium your new home."/>
+    <meta name="description" content="Meadow Hills Condominium in Aurora, offers many amenities. Near to King soopers, walmart, Meadow Hills Golf Course, Cherry Creek State park."/>
     <!--Indicators of a website's content to search engines. -->
     <meta name="keywords" content="Amenities,condominium for rent in aurora,facility,near light rail,swimming pool,near park" />
     <!--Used to name the author of the page -->
