@@ -94,13 +94,13 @@
 
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-             <a href="#" class="btn btn-info btn-block" role="button">Floor Plans</a>
+             <a href="Amenities.aspx" class="btn btn-info btn-block" role="button">Amenities</a>
         </div>
         <div class="col-xs-6 col-sm-12 col-md-4 col-lg-4">
-             <a href="#" class="btn btn-danger btn-block" role="button">Location</a>
+             <a href="Map.aspx" class="btn btn-danger btn-block" role="button">Map</a>
         </div>
         <div class="col-xs-6 col-sm-12 col-md-4 col-lg-4">
-             <a href="#" class="btn btn-warning btn-block" role="button">Contact Us</a>
+             <a href="Contactus.aspx" class="btn btn-warning btn-block" role="button">Contact Us</a>
         </div>
     </div>
 
